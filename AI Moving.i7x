@@ -6,6 +6,11 @@ Section 1 - Chasing Phrases
 
 Section 1.1 - Simple Chase
 
+Follow_Stop is a truth state that varies.
+Follow_Done is a truth state that varies.
+Follow_Number_Goal is a number that varies.
+Follow_Number_Runner is a number that varies.
+
 To start a simple chase:
 If Follow_Stop is true, Now Follow_Stop is false; 
 If Follow_Done is true, Now Follow_Done is false;
